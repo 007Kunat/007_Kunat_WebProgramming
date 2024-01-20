@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.navbar-brand {
+    color: #3a5a40;
+}
+    .portfolio{
+        background-color: #588157;
+    }
+    .py-2{
+        color: #588157;
+    }
+    .portfolio2{
+        background-color: #588157;
+    }
