@@ -4,74 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Mali", cursive;
+        }
+        .text-center{
+            text-align: center;
+        }
+        h3 {
+            margin-left: 20px;
+        }
+        ol {
+            line-height: 1.3;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1> ข้าวหมูกรอบคั่วพริกเกลือ</h1>
-    <img src="photo.png/OIP.jpg" alt="หมูกรอบคั่วพริกเกลือ" width="300px">
-    <h3> วัตถุดิบ</h3>
-    <ul>
-        <li>หมูกรอบ 300 กรัม</li>
-        <li>พริกขี้หนูสวนสับ 3 ช้อนโต้ะ</li>
-        <li>กระเทียมไทย 1 กำมื้อ</li>
-        <li>กระเทียมจีน 3-4 กลีบ</li>
-        <li>เกลือป่น 1/2 ช้อนชา</li>
-        <li>ต้นหอมซอย 1 ช้อนโต้ะ</li>
-        <li>น้ำตาลทราย 1/4 ช้อนชา</li>
-        <li>น้ำมัน 2 ช้อนโต้ะ</li>
-        <li>ข้าวสวย 1 จาน</li>
-    </ul>
-    <h3> วิธีทำ </h3>
-    <ol>
-        <li>เตรียมวัตถุดิบต่างๆโดยการสับหยาบกระเทียมจีนแบบปอกเปลือก และกระเทียมไทยทุบพอแหลกแบบไม่ต้องปลอกเปลือก รวมถึงซอยต้นหอมแล้วพักไว้ </li>
-        <li>เตรียมหั่นชิ้นหมูกรอบ ทำกินเองก็หั่นหนาๆได้เลย เวลาทานเต็มปากเต็มคำ </li>
-        <li>ตั้งกระทะให้ร้อนใส่น้ำมันลงไปไม่ต้องเยอะมาก(เพราะเราต้องการคั่วแบบแห้ง) แล้วเจียวกระเทียมจนขึ้นสีเหลืองทอง ใส่พริกขี้หนูตามลงไปผัดต่อจนเริ่มฉุน จากนั้นตามด้วยหมูกรอบ ปรุงรสด้วยน้ำตาลและเกลือ ก่อนปิดไฟใส่ต้นหอมซอยลงไปคลุกเคล้าจนทั้งหมดเข้ากันดี </li>
-        <li>ตักข้าวสวยร้อนๆลงจาน ตามด้วยเทหมูกรอบครัวพริกเกลือที่เราทำไว้ลงบนข้าว โรยต้นหอมผักชีเพิ่มสีสันอีกเล็กน้อย พร้อมเสิร์ฟ!!! </li>
-    </ol>
+    <div class="container-fluid" style="background-color: #ffc0a14b;">
+    <img src="photo.png/หมู1.jpg" alt="Pictures" width="100%" height="400px" style=" object-fit: cover;">
+    <h1 class="text-center pt-4" style="color: #81492d;"> ข้าวหมูกรอบคั่วพริกเกลือ</h1>
+    <div class="imgcenter">
+    <img src="photo.png/pig.jpg" style="display: block; margin-left: auto; margin-right: auto;" class="pt-3" alt="หมูกรอบคั่วพริกเกลือ" width="400px" >
+    </div> 
+    <br>
+    
+    
+    <div class="row">
+        <div class="col-sm-12 col-lg-6">
+            <h3 class="px-5 mx-5 py-2 rounded" style="background-color: #B67352;">วัตถุดิบ</h3>
+            <h5 class="mt-2 mb-4 px-5 py-3 mx-5 rounded" style="background-color: #ffc1a1a1; line-height: 1.7;"> 
+                <li>หมูกรอบ 300 กรัม</li>
+                <li>กระเทียมไทย 1 กำมื้อ</li>
+                <li>พริกขี้หนูสวนสับ 3 ช้อนโต้ะ</li>
+                <li>เกลือป่น 1/2 ช้อนชา</li>
+                <li>ต้นหอมซอย 1 ช้อนโต้ะ</li>
+                <li>น้ำตาลทราย 1/4 ช้อนชา</li>
+                <li>น้ำมัน 2 ช้อนโต้ะ</li>
+                <li>ข้าวสวย 1 จาน</li>
+            </h5>
+        </div>
+    
+        <div class="col-sm-12 col-lg-6">
+            <h3 class="px-5 mx-5 py-2 rounded" style="background-color: #B67352;">วิธีทำ</h3>
+            <h5 class="mt-2 mb-4 px-5 py-4 mx-5 rounded" style="background-color: #ffc1a1a1; line-height: 1.; "> 
+                <ol>
+                    <li>เตรียมวัตถุดิบต่างๆโดยการสับหยาบกระเทียมจีนแบบปอกเปลือก และกระเทียมไทยทุบพอแหลกแบบไม่ต้องปลอกเปลือก รวมถึงซอยต้นหอมแล้วพักไว้ </li>
+                    <li>เตรียมหั่นชิ้นหมูกรอบ ทำกินเองก็หั่นหนาๆได้เลย เวลาทานเต็มปากเต็มคำ </li>
+                    <li>ตั้งกระทะให้ร้อนใส่น้ำมันลงไปไม่ต้องเยอะมาก(เพราะเราต้องการคั่วแบบแห้ง) แล้วเจียวกระเทียมจนขึ้นสีเหลืองทอง ใส่พริกขี้หนูตามลงไปผัดต่อจนเริ่มฉุน จากนั้นตามด้วยหมูกรอบ ปรุงรสด้วยน้ำตาลและเกลือ ก่อนปิดไฟใส่ต้นหอมซอยลงไปคลุกเคล้าจนทั้งหมดเข้ากันดี </li>
+                    <li>ตักข้าวสวยร้อนๆลงจาน ตามด้วยเทหมูกรอบครัวพริกเกลือที่เราทำไว้ลงบนข้าว โรยต้นหอมผักชีเพิ่มสีสันอีกเล็กน้อย พร้อมเสิร์ฟ!!! </li>
+                </ol>
+            </h5>
+        </div>
+    </div>
+    
+    
 
-    <h3>ตารางข้อมูลโภชนาการ ข้าวหมูกรอบคั่วพริกเกลือ</h3>
+
+    <h3 class="text-center" style="color: #81492d;">ตารางข้อมูลโภชนาการ ข้าวหมูกรอบคั่วพริกเกลือ</h3>
     <table border="1" width="400px">
         <tr>
-            <th colspan="2">คุณค่าทางโชนาการต่อหนึ่งหน่วยบริโภค</th>
+            <th colspan="2" style="background-color:  #B67352; text-align: center; ">คุณค่าทางโชนาการต่อหนึ่งหน่วยบริโภค</th>
         </tr>
         <tr>
-            <td colspan="2">พลังงานทั้งหมด 673</td>
+            <td colspan="2" style=" padding-left: 10px;" >พลังงานทั้งหมด 673</td>
         </tr>
         <tr>
-            <td colspan="2">% ร้อยละของปริมาณที่แนะนำต่อวัน</td>
+            <td colspan="2" style=" background-color: #ffc1a1a1; padding-left: 10px;">% ร้อยละของปริมาณที่แนะนำต่อวัน</td>
         </tr>
         <tr>
-            <td>ไขมันทั้งหมด 68.9 g</td>
-            <td>107%</td>
+            <td style="padding-left: 10px;">ไขมันทั้งหมด 68.9 g</td>
+            <td style="text-align: center;">107%</td>
         </tr>
         <tr>
-            <td>คลอเรสเตอรอล 93.6 mg</td>
-            <td>32%</td>
+            <td style=" background-color: #ffc1a1a1; padding-left: 10px;">คลอเรสเตอรอล 93.6 mg</td>
+            <td style="  background-color: #ffc1a1a1;text-align: center;">32%</td>
         </tr>
         <tr>
-            <td>โซเดียม 41.6 mg </td>
-            <td>2%</td>
+            <td style="padding-left: 10px;">โซเดียม 41.6 mg </td>
+            <td style="text-align: center;">2%</td>
         </tr>
         <tr>
-            <td>โพแทสเซียม 240.5 mg</td>
-            <td>7%</td>
+            <td style=" background-color: #ffc1a1a1; padding-left: 10px;">โพแทสเซียม 240.5 mg</td>
+            <td style="  background-color: #ffc1a1a1;text-align: center;">7%</td>
         </tr>
         <tr>
-            <td>คาร์โบไฮเดรตทั้งหมด 0 g</td>
-            <td>0%</td>
+            <td style="padding-left: 10px;">คาร์โบไฮเดรตทั้งหมด 0 g</td>
+            <td style="text-align: center;">0%</td>
         </tr>
         <tr>
-            <td>โปรตีน 12.1 g</td>
-            <td>25%</td>
-        </tr>
+            <td style=" background-color: #ffc1a1a1; padding-left: 10px;">โปรตีน 12.1 g</td>
+            <td style=" background-color: #ffc1a1a1; text-align: center;">25%</td>
+        </tr>       
     </table>
-    <h2> COMMENT </h2>
+
+
+ <div class="  text-center pt-5" style="font-size: 20px;">
+    <h2 style="color: #81492d;"> COMMENT </h2>
     <label for="username">Topics : </label>
-    <input type="text" name="Topic">
+    <input type="text" name="Topic" style="width: 25%; background-color: #ffc1a1a1;">
     <br><br>
     <label for="Comment">Comment : </label>
-    <textarea name="Comment" cols="30" rows="10"></textarea>
+    <textarea name="Comment" cols="50" rows="10" style="background-color: #ffc1a1a1;"></textarea>
     <br> <br>
-    <input type="submit" value="submit">
-    <input type="reset" value="reset">
+    <input type="submit" value="submit" style="margin-right: 220px;">
+    <input type="reset" value="reset" style=" position: relative; left: -210px;">
+</div>
+</div>
 </body>
 </html>
